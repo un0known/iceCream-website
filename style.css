@@ -25,3 +25,73 @@ html{
 body{
     background: var(--bg-color);
 }
+
+/* BASIC STYLING */
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 85%;
+    margin: auto;
+}
+
+
+/* NAVBAR STYLING */
+
+.navbar{
+    justify-content: space-between;
+    height: 13vh;
+
+}
+
+.navlist{
+    gap: 3rem;
+}
+
+.link{
+    color: var(--text-color);
+    font-size: .95rem;
+}
+
+.logo{
+    font-size: 1.3rem;
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.fa-ice-cream{
+    font-size: 1.8rem;
+}
+
+
+.nav-icons{
+    justify-content: center;
+    gap: 1rem;
+}
+
+.icon{
+    background: var(--btn-color);
+    color: var(--text-color);
+    font-size: 1.2rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+
+}
